@@ -133,6 +133,6 @@ Qualitative analysis shows that in the correction round the controller tends to 
 - **Code outline (outline code to assist understanding of our proposed methods):** https://github.com/mi-zo/mi-zo/tree/main/code  
 - **Benchmark samples:** single samples for GeoProperties-3DS, FeatureID-3DS, and PartialView-3DS
 
-For questions about this project please contact jason.armitage@uzh.ch
+For questions about this project please contact [jason.armitage@uzh.ch](mailto:jason.armitage@uzh.ch)
 
 
