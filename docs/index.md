@@ -21,13 +21,15 @@ MI-ZO enables off-the-shelf vision–language models trained on 2D data to adapt
 
 ---
 
-## MI-ZO in One Figure
-
-![Textures of objects in 3D scenes vary depending on the camera position.](assets/img/mi-zo-fig1-camera-views.png)
+## MI-ZO
 
 <span class="fig-caption">
 Textures of objects in 3D scenes vary in appearance depending on the position of the in-scene camera. Aligning a description with a scene is harder when referenced objects belong to a group such as a single boulder in an outcrop on Mars. An optimal sequence of viewpoints improves the decisions of VLMs trained on 2D data where understanding a 3D reconstructed scene relies on a set of views.
 </span>
+
+<div style="text-align: center; margin-top: 1em;">
+  <img src="assets/img/front_page_figure_mars.png" alt="Textures of objects in 3D scenes vary depending on the camera position.">
+</div>
 
 ---
 
