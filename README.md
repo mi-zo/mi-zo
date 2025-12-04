@@ -1,5 +1,5 @@
 # MI-ZO
-This repository contains code and project resources for **MI-ZO**, a method for multi-information estimation with zeroth-order optimisation to control an in-scene camera in 3D scenes.
+This repository contains a summary of the contributions and project components for our paper on **MI-ZO** - a method for multi-information estimation with zeroth-order optimisation to control an in-scene camera in 3D scenes.
 
 MI-ZO enables off-the-shelf vision–language models (VLMs) trained on 2D visual inputs to process and reason over 3D scenes without resorting to pretraining or finetuning.
 
@@ -19,9 +19,9 @@ A multi-information metric over mixed continuous and discrete entropy sources is
 
 Key characteristics:
 
-- **Inference-only:** no access to model parameters, no backpropagation through the VLM.
+- **Inference-only:** no requirements for access to model parameters or backpropagation through the VLM.
 - **Low-data:** operates with a very small number of demonstrations and online feedback.
-- **Multi-object 3D scenes:** designed for settings where models are required to reason over scenes with multiple similar objects.
+- **Multi-object 3D scenes:** designed for settings where models are required to reason over 3D scenes with multiple similar objects.
 
 ---
 
@@ -58,22 +58,17 @@ This repository will host sample code and inputs for the cross-modal benchmarks 
 - **PartialView-3DS**  
   Multi-object scenes separated by a partition so that one object is fully or partially occluded. This benchmark is designed to measure how well control methods can assist VLMs trained on 2D data to handle occlusions.
 
-Links to dataset downloads, generation scripts, and documentation will be added here.
+Links to samples of benchmarks in the paper are available at the locations below.
 
 ---
 
-## Repository Structure (planned)
+## Project Components (planned)
 
-The current structure is minimal and will be extended along the following lines:
+Project components (ie code outline and samples of benchmarks proposed) can be found here:
 
-- `docs/` – project page and documentation (GitHub Pages source).
-  - `index.md` – main project page for MI-ZO.
-  - `assets/` – CSS and images for figures and samples.
-- `mi_zo/` – implementation of MI-ZO metrics and the zeroth-order controller.
-- `configs/` – experiment configurations (VLMs, benchmarks, camera settings).
-- `scripts/` – utilities for dataset preparation, rendering, and evaluation.
-- `experiments/` – example runs, logs, and analysis notebooks.
-
+- `code/` – outline of the code for MI-ZO and our controller.
+- `data` – individual samples of the benchmarks.
+  
 ---
 
 ## Citation
